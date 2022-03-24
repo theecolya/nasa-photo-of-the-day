@@ -6,7 +6,14 @@
   height: 40vmin;
   pointer-events: none;
 }
-
+body {
+  background-image: url('./Styles/background.jpg');
+  background-size: cover;
+}
+#root {
+  display: flex;
+  justify-content: center;
+}
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
@@ -35,8 +42,4 @@
   to {
     transform: rotate(360deg);
   }
-}
-
-img {
-  max-width: 10%;
 }
